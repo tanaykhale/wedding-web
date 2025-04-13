@@ -29,6 +29,11 @@ main{
     
    
 }
+.sliding :hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    color: #F52F56;
+}
 .carasoul{
     height: 30rem;
     width: 100%;
@@ -36,25 +41,25 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("./assets//img4.jpg");
-    background-size: 100% 100%;
+    background-image: url("./assets//img-1.webp");
+    background-size: 100% ;
     animation: changeImage 50s linear infinite;
 }
 @keyframes changeImage {
     0%{
-        background-image: url("./assets/img4.jpg");
+        background-image: url("./assets/img-2.webp");
     }
     25%{
-        background-image: url("./assets/img3.jpg");
+        background-image: url("./assets/img-3.webp");
     }
     50%{
-        background-image: url("./assets/img2.avif");
+        background-image: url("./assets/img-4.webp");
     }
     75%{
-        background-image: url("./assets/img1.jpg");
+        background-image: url("./assets/img-5.webp");
     }
     100%{
-        background-image: url("./assets/img4.jpg");
+        background-image: url("./assets/img-1.webp");
     }
 }
 .details{
